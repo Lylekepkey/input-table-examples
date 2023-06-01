@@ -1,0 +1,52 @@
+tr{
+    border: 2px solid black;
+}
+td{
+border: 2px solid black;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-image:  linear-gradient(to right, #DECBA4, #3E5151);
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 40%;
+    border: 2px solid black;
+    background-image:  linear-gradient(to left, #DECBA4, #3E5151);
+    box-shadow: 10px 10px rgb(84, 84, 84);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+#input {
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inputButton {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-image:  linear-gradient(to left, #DECBA4, #3E5151);
+    color: black;
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+.inputButton:hover {
+    background-image:  linear-gradient(to right, #DECBA4, #3E5151);
+    color: white;
+}
+#display {
+    padding: 10px;
+    height: 25px
+}
